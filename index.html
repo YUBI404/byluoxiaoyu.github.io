@@ -1,19 +1,7 @@
-﻿<?php
-$conf['qqjump']=1;
-if(strpos($_SERVER['HTTP_USER_AGENT'], 'QQ/')!==false && $conf['qqjump']==1){
-$a='http://'.$_SERVER['SERVER_NAME'].':'.$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
-echo 'html>
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-<script type="text/javascript">
-         var system ={};  
-         var p = navigator.platform;       
-         system.win = p.indexOf("Win") == 0;  
-         system.mac = p.indexOf("Mac") == 0;  
-         system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
-         if(system.win||system.mac||system.xll){
-                 window.location.href="PC.html";  
-         }else{
-               window.location.href="iPhone.html";  
-        }
-</script>
+<html>
+<head><title>正在维护中...</title></head>
+<body>
+<center><h1>网站维护中...</h1></center>
+<hr><center>洛小雨提示您网站正在维护中</center>
+</body>
+</html>
